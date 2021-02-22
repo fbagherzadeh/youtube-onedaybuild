@@ -7,7 +7,13 @@
 
 import Foundation
 
+protocol ModelDelegate {
+    func videoFetched(videos: [Video])
+}
+
 class Model {
+    
+    var delegate: ModelDelegate!
     
     func getVideos() {
         
@@ -30,6 +36,11 @@ class Model {
             do {
                 let response = try decoder.decode(Response.self, from: data!)
                 dump(response)
+                DispatchQueue.main.async {
+                    if response.items != nil {
+                        self.delegate.videoFetched(videos: response.items!)
+                    }
+                }
             }
             catch {
                 print("decoing issue!")
