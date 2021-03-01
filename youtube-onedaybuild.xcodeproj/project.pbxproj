@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0AEA4F5F25ECEDBE00B502E9 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AEA4F5E25ECEDBE00B502E9 /* DetailViewController.swift */; };
 		C478B5CC25E63C59009EEE5E /* VideoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C478B5CB25E63C59009EEE5E /* VideoTableViewCell.swift */; };
 		C478B5D525E64A1E009EEE5E /* CacheManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C478B5D425E64A1E009EEE5E /* CacheManager.swift */; };
 		C47B81B925DA623800D91536 /* ConstantsTemplate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47B81B825DA623800D91536 /* ConstantsTemplate.swift */; };
@@ -23,6 +24,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0AEA4F5E25ECEDBE00B502E9 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		C478B5CB25E63C59009EEE5E /* VideoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoTableViewCell.swift; sourceTree = "<group>"; };
 		C478B5D425E64A1E009EEE5E /* CacheManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CacheManager.swift; sourceTree = "<group>"; };
 		C47B81B825DA623800D91536 /* ConstantsTemplate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstantsTemplate.swift; sourceTree = "<group>"; };
@@ -55,6 +57,7 @@
 			isa = PBXGroup;
 			children = (
 				C4B45F9F25D51BDF000AE6DC /* ViewController.swift */,
+				0AEA4F5E25ECEDBE00B502E9 /* DetailViewController.swift */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -198,6 +201,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0AEA4F5F25ECEDBE00B502E9 /* DetailViewController.swift in Sources */,
 				C4818C8A25DD022600A12708 /* Response.swift in Sources */,
 				C47B81B925DA623800D91536 /* ConstantsTemplate.swift in Sources */,
 				C4B45FA025D51BDF000AE6DC /* ViewController.swift in Sources */,
